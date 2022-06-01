@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3f814a50504419248a42ea2bab357ea4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: bf81e2256d6a86e4391e08766ae78028, type: 2}
+  _assetPath: Assets/Materials/Substance Assets/wood (2).sbsar

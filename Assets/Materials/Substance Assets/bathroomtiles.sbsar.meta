@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b7fff64998dac804b9106bd800c2fcf1
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 7df91ce92f7261342b49e7438cd5b076, type: 2}
+  _assetPath: Assets/Materials/Substance Assets/bathroomtiles.sbsar
