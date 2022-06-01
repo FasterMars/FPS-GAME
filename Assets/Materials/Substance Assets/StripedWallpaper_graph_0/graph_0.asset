@@ -1,0 +1,2282 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Materials/Substance Assets/StripedWallpaper.sbsar
+  OutputPath: Assets/Materials/Substance Assets/StripedWallpaper_graph_0
+  RawData: {fileID: -244192453324840774, guid: 37c865102cedb82459407b9ac7cf1abd, type: 3}
+  Graph:
+    Index: 0
+    Owner: {fileID: 11400000}
+    Input:
+    - rid: 1000
+    - rid: 1001
+    - rid: 1002
+    - rid: 1003
+    - rid: 1004
+    - rid: 1005
+    - rid: 1006
+    - rid: 1007
+    - rid: 1008
+    - rid: 1009
+    - rid: 1010
+    - rid: 1011
+    - rid: 1012
+    - rid: 1013
+    - rid: 1014
+    - rid: 1015
+    - rid: 1016
+    - rid: 1017
+    - rid: 1018
+    - rid: 1019
+    - rid: 1020
+    - rid: 1021
+    - rid: 1022
+    - rid: 1023
+    - rid: 1024
+    - rid: 1025
+    - rid: 1026
+    - rid: 1027
+    - rid: 1028
+    - rid: 1029
+    - rid: 1030
+    - rid: 1031
+    - rid: 1032
+    - rid: 1033
+    - rid: 1034
+    - rid: 1035
+    - rid: 1036
+    - rid: 1037
+    - rid: 1038
+    - rid: 1039
+    - rid: 1040
+    - rid: 1041
+    - rid: 1042
+    - rid: 1043
+    - rid: 1044
+    - rid: 1045
+    - rid: 1046
+    - rid: 1047
+    - rid: 1048
+    - rid: 1049
+    - rid: 1050
+    - rid: 1051
+    - rid: 1052
+    - rid: 1053
+    - rid: 1054
+    - rid: 1055
+    - rid: 1056
+    - rid: 1057
+    - rid: 1058
+    - rid: 1059
+    - rid: 1060
+    - rid: 1061
+    - rid: 1062
+    - rid: 1063
+    - rid: 1064
+    - rid: 1065
+    - rid: 1066
+    - rid: 1067
+    Output:
+    - Index: 0
+      VirtualOutputIndex: 23
+      GraphIndex: 0
+      Description:
+        Identifier: basecolor
+        Label: basecolor
+        Index: 0
+        Type: 8
+        Channel: baseColor
+      OutputTexture: {fileID: 2800000, guid: ed8285e48c9ee3d4cb498f4e2b46b413, type: 3}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: opacity
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 1
+      VirtualOutputIndex: 24
+      GraphIndex: 0
+      Description:
+        Identifier: roughness
+        Label: roughness
+        Index: 1
+        Type: 8
+        Channel: roughness
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 2
+      VirtualOutputIndex: 25
+      GraphIndex: 0
+      Description:
+        Identifier: metallic
+        Label: metallic
+        Index: 2
+        Type: 8
+        Channel: metallic
+      OutputTexture: {fileID: 2800000, guid: 579211aa988baf34f845e8838ec3f664, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: roughness
+      InvertAssignedAlpha: 1
+      BGRATexture: 0
+      Flags: 0
+    - Index: 3
+      VirtualOutputIndex: 26
+      GraphIndex: 0
+      Description:
+        Identifier: albedo
+        Label: albedo
+        Index: 3
+        Type: 8
+        Channel: diffuse
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: opacity
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 4
+      VirtualOutputIndex: 27
+      GraphIndex: 0
+      Description:
+        Identifier: specular
+        Label: specular
+        Index: 4
+        Type: 8
+        Channel: specular
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: roughness
+      InvertAssignedAlpha: 1
+      BGRATexture: 0
+      Flags: 0
+    - Index: 5
+      VirtualOutputIndex: 28
+      GraphIndex: 0
+      Description:
+        Identifier: glossiness
+        Label: glossiness
+        Index: 5
+        Type: 8
+        Channel: glossiness
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 6
+      VirtualOutputIndex: 29
+      GraphIndex: 0
+      Description:
+        Identifier: normal
+        Label: normal
+        Index: 6
+        Type: 8
+        Channel: normal
+      OutputTexture: {fileID: 2800000, guid: 4cb94ba79279d2c4ca1469ea6100d05a, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 0
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 7
+      VirtualOutputIndex: 30
+      GraphIndex: 0
+      Description:
+        Identifier: normalopengl
+        Label: normalopengl
+        Index: 7
+        Type: 8
+        Channel: normal
+      OutputTexture: {fileID: 2800000, guid: 84ed23ef627894c49a030fac99151f7c, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 0
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 8
+      VirtualOutputIndex: 31
+      GraphIndex: 0
+      Description:
+        Identifier: ambientocclusion
+        Label: ambientocclusion
+        Index: 8
+        Type: 8
+        Channel: ambientOcclusion
+      OutputTexture: {fileID: 2800000, guid: f4b085267a33f194092b3dbdc3043df5, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 9
+      VirtualOutputIndex: 32
+      GraphIndex: 0
+      Description:
+        Identifier: height
+        Label: height
+        Index: 9
+        Type: 8
+        Channel: height
+      OutputTexture: {fileID: 2800000, guid: 88cbbea8de4bc574db9f586b09ad1056, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 10
+      VirtualOutputIndex: 33
+      GraphIndex: 0
+      Description:
+        Identifier: opacity
+        Label: opacity
+        Index: 10
+        Type: 8
+        Channel: opacity
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 11
+      VirtualOutputIndex: 34
+      GraphIndex: 0
+      Description:
+        Identifier: specularface
+        Label: specularface
+        Index: 11
+        Type: 8
+        Channel: specular
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 12
+      VirtualOutputIndex: 35
+      GraphIndex: 0
+      Description:
+        Identifier: reflection
+        Label: reflection
+        Index: 12
+        Type: 8
+        Channel: reflection
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 13
+      VirtualOutputIndex: 36
+      GraphIndex: 0
+      Description:
+        Identifier: ior
+        Label: ior
+        Index: 13
+        Type: 8
+        Channel: IOR
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 14
+      VirtualOutputIndex: 37
+      GraphIndex: 0
+      Description:
+        Identifier: f0
+        Label: f0
+        Index: 14
+        Type: 8
+        Channel: f0
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 15
+      VirtualOutputIndex: 38
+      GraphIndex: 0
+      Description:
+        Identifier: mrao
+        Label: mrao
+        Index: 15
+        Type: 8
+        Channel: metallic
+      OutputTexture: {fileID: 2800000, guid: b1204d1b9863e8b4b9cf1526628e77dc, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 16
+      VirtualOutputIndex: 39
+      GraphIndex: 0
+      Description:
+        Identifier: unitymetallic
+        Label: unitymetallic
+        Index: 16
+        Type: 8
+        Channel: metallic
+      OutputTexture: {fileID: 2800000, guid: 2c87ef5091f76c546816e75139f3ebee, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 17
+      VirtualOutputIndex: 40
+      GraphIndex: 0
+      Description:
+        Identifier: unityspecular
+        Label: unityspecular
+        Index: 17
+        Type: 8
+        Channel: specular
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 18
+      VirtualOutputIndex: 41
+      GraphIndex: 0
+      Description:
+        Identifier: ddna
+        Label: ddna
+        Index: 18
+        Type: 8
+        Channel: normal
+      OutputTexture: {fileID: 2800000, guid: df3a926e843c90342a45ecba2ec7a0bd, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 0
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 19
+      VirtualOutputIndex: 42
+      GraphIndex: 0
+      Description:
+        Identifier: wcbasecolor
+        Label: wcbasecolor
+        Index: 19
+        Type: 8
+        Channel: diffuse
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 20
+      VirtualOutputIndex: 43
+      GraphIndex: 0
+      Description:
+        Identifier: emissive
+        Label: emissive
+        Index: 20
+        Type: 8
+        Channel: emissive
+      OutputTexture: {fileID: 2800000, guid: 3f3a157b4d04f01439f8aadc9b58b760, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 21
+      VirtualOutputIndex: 44
+      GraphIndex: 0
+      Description:
+        Identifier: unityalbedo
+        Label: unityalbedo
+        Index: 21
+        Type: 8
+        Channel: specular
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 22
+      VirtualOutputIndex: 45
+      GraphIndex: 0
+      Description:
+        Identifier: unitybasecolor
+        Label: unitybasecolor
+        Index: 22
+        Type: 8
+        Channel: specular
+      OutputTexture: {fileID: 0}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    RenderTextures: 0
+    OutputRemaped: 0
+    Thumbnail: 
+    HasThumbnail: 0
+    OutputMaterial: {fileID: 2100000, guid: 14cfd7fce2753a243822bd85aeef8c07, type: 2}
+    MaterialShader: Standard
+    GenerateAllOutputs: 0
+    GenerateAllMipmaps: 0
+    DefaultPreset: " <sbspreset pkgurl=\"pkg://StripedWallpaper\" label=\"\" >\n 
+      <presetinput identifier=\"$outputsize\" uid=\"49251561\" type=\"8\" value=\"10,10\"
+      />\n </sbspreset>\n"
+    CurrentStatePreset: " <sbspreset pkgurl=\"pkg://StripedWallpaper\" label=\"\"
+      >\n  <presetinput identifier=\"$outputsize\" uid=\"49251561\" type=\"8\" value=\"10,10\"
+      />\n </sbspreset>\n"
+    IsRuntimeOnly: 0
+  RefreshMaterial: 1
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: f036022a-4abf-4b8c-9498-615b5f601f19
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 0
+          Type: 5
+          WidgetType: 0
+        _Index: 0
+        _GraphID: 0
+        _Data: {x: 10, y: 10}
+        _isVisible: 1
+        _NumericalDescription:
+          _DefaultValue: {x: 8, y: 8}
+          _MinValue: {x: 0, y: 0}
+          _MaxValue: {x: 1, y: 1}
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1001
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 1
+          Type: 4
+          WidgetType: 0
+        _Index: 1
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1002
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 2
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Color_Hue
+          Label: Color Hue
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["BaseColorToggle"] || input["AlbedoToggle"]
+          Index: 2
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1003
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 3
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Color_Saturation
+          Label: Color Saturation
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["BaseColorToggle"] || input["AlbedoToggle"]
+          Index: 3
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1004
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 4
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Color_Lightness
+          Label: Color Lightness
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["BaseColorToggle"] || input["AlbedoToggle"]
+          Index: 4
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1005
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 5
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Color_Contrast
+          Label: Color Contrast
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["BaseColorToggle"] || input["AlbedoToggle"]
+          Index: 5
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1006
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 6
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Normal_Intensity
+          Label: Normal Intensity
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["NormalToggle"]
+          Index: 6
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 3
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1007
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: NormalFormat
+          Label: Normal Format
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["NormalToggle"]
+          Index: 7
+          Type: 4
+          WidgetType: 5
+        _Index: 7
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 2
+          _EnumValues:
+          - Value: 0
+            Label: DirectX (Unreal)
+          - Value: 1
+            Label: OpenGL (Unity)
+        _HasChanged: 0
+    - rid: 1008
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 8
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Roughness_Minimum
+          Label: Roughness Minimum
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["RoughnessToggle"] || input["GlossinessToggle"]
+          Index: 8
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1009
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 9
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Roughness_Maximum
+          Label: Roughness Maximum
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["RoughnessToggle"] || input["GlossinessToggle"]
+          Index: 9
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1010
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 10
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Roughness_Shift
+          Label: Roughness Shift
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["RoughnessToggle"] || input["GlossinessToggle"]
+          Index: 10
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1011
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 11
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Height_Minimum
+          Label: Height Minimum
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["HeightToggle"]
+          Index: 11
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1012
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 12
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Height_Maximum
+          Label: Height Maximum
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["HeightToggle"]
+          Index: 12
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1013
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 13
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_Height_Shift
+          Label: Height Shift
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["HeightToggle"]
+          Index: 13
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1014
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 14
+        _Data: 0.1
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_AO_Surface_Depth
+          Label: AO Surface Depth
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["AmbientOcclusionToggle"]
+          Index: 14
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1015
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 15
+        _Data: 0.1
+        _isVisible: 1
+        _Description:
+          Identifier: Basic_Parameters_AO_Radius
+          Label: AO Radius
+          GuiGroup: Basic Parameters
+          GuiDescription: 
+          GuiVisibleIf: input["AmbientOcclusionToggle"]
+          Index: 15
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1016
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: BaseColorToggle
+          Label: Base Color
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Base Color outputs (Substance Designer)
+            and Controls
+          GuiVisibleIf: 
+          Index: 16
+          Type: 4
+          WidgetType: 4
+        _Index: 16
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1017
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: RoughnessToggle
+          Label: Roughness
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Roughness outputs (Substance Designer)
+            and Controls
+          GuiVisibleIf: 
+          Index: 17
+          Type: 4
+          WidgetType: 4
+        _Index: 17
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1018
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: MetallicToggle
+          Label: Metallic
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Metallic outputs (Substance Designer) and
+            Controls
+          GuiVisibleIf: 
+          Index: 18
+          Type: 4
+          WidgetType: 4
+        _Index: 18
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1019
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: AlbedoToggle
+          Label: Albedo
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Albedo outputs (Substance Designer) and
+            Controls
+          GuiVisibleIf: 
+          Index: 19
+          Type: 4
+          WidgetType: 4
+        _Index: 19
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1020
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: SpecularToggle
+          Label: Specular
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Specular outputs (Substance Designer) and
+            Controls
+          GuiVisibleIf: 
+          Index: 20
+          Type: 4
+          WidgetType: 4
+        _Index: 20
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1021
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: GlossinessToggle
+          Label: Glossiness
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Glossiness outputs (Substance Designer)
+            and Controls
+          GuiVisibleIf: 
+          Index: 21
+          Type: 4
+          WidgetType: 4
+        _Index: 21
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1022
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: NormalToggle
+          Label: Normal
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Normal outputs (Substance Designer) and
+            Controls
+          GuiVisibleIf: 
+          Index: 22
+          Type: 4
+          WidgetType: 4
+        _Index: 22
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1023
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: HeightToggle
+          Label: Height
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Height outputs (Substance Designer) and
+            Controls
+          GuiVisibleIf: 
+          Index: 23
+          Type: 4
+          WidgetType: 4
+        _Index: 23
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1024
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: OpacityToggle
+          Label: Opacity
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Opacity outputs (Substance Designer) and
+            Controls
+          GuiVisibleIf: 
+          Index: 24
+          Type: 4
+          WidgetType: 4
+        _Index: 24
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1025
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: EmissiveToggle
+          Label: Emissive
+          GuiGroup: Substance Designer Controls
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 25
+          Type: 4
+          WidgetType: 4
+        _Index: 25
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1026
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: OfflineEngineToggle
+          Label: Offline Engine Channels
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on and off outputs for Offline Engines.
+          GuiVisibleIf: 
+          Index: 26
+          Type: 4
+          WidgetType: 4
+        _Index: 26
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1027
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: GameEngineToggle
+          Label: Game Engine
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on and off outputs for Game Engines.
+          GuiVisibleIf: 
+          Index: 27
+          Type: 4
+          WidgetType: 4
+        _Index: 27
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1028
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: AmbientOcclusionToggle
+          Label: Ambient Occlusion
+          GuiGroup: Substance Designer Controls
+          GuiDescription: Turns on or off Ambient Occlusion outputs (Substance Designer)
+            and Controls
+          GuiVisibleIf: 
+          Index: 28
+          Type: 4
+          WidgetType: 4
+        _Index: 28
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1029
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 29
+        _GraphID: 0
+        _Data: {x: 0.5, y: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: Pattern_Line_Size_xy
+          Label: Line Size
+          GuiGroup: Pattern
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 29
+          Type: 1
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.5, y: 1}
+          _MinValue: {x: 0, y: 0}
+          _MaxValue: {x: 1, y: 1}
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1030
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: Pattern_Line_Rotation
+          Label: "Rotation 45\xB0"
+          GuiGroup: Pattern
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 30
+          Type: 4
+          WidgetType: 4
+        _Index: 30
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1031
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: Pattern_x_amount
+          Label: X Amount
+          GuiGroup: Pattern
+          GuiDescription: Amount of patterns on the X axis.
+          GuiVisibleIf: 
+          Index: 31
+          Type: 4
+          WidgetType: 1
+        _Index: 31
+        _Data: 10
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 10
+          _MinValue: 1
+          _MaxValue: 64
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1032
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: Pattern_y_amount
+          Label: Y Amount
+          GuiGroup: Pattern
+          GuiDescription: Amount of patterns on the Y axis.
+          GuiVisibleIf: 
+          Index: 32
+          Type: 4
+          WidgetType: 1
+        _Index: 32
+        _Data: 10
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 10
+          _MinValue: 1
+          _MaxValue: 64
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1033
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 33
+        _GraphID: 0
+        _Data: {x: 0, y: 0, z: 0, w: 0}
+        _isVisible: 1
+        _Description:
+          Identifier: Pattern_Size_interstice
+          Label: Interstice X/Y
+          GuiGroup: Pattern
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 33
+          Type: 3
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0, y: 0, z: 0, w: 0}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1034
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 34
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: Pattern_Size_scale
+          Label: Scale
+          GuiGroup: Pattern
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 34
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 2
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1035
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 35
+        _GraphID: 0
+        _Data: {x: 0.347267, y: 0.390805, z: 0.293682, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: background_color
+          Label: Background Color
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 35
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.347267, y: 0.390805, z: 0.293682, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1036
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 36
+        _GraphID: 0
+        _Data: {x: 0.804598, y: 0.788837, z: 0.728423, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: pattern_color_1
+          Label: Pattern Color
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 36
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.804598, y: 0.788837, z: 0.728423, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1037
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 37
+        _Data: 0.28
+        _isVisible: 1
+        _Description:
+          Identifier: pattern_color_opacity
+          Label: Pattern Color Opacity
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 37
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.28
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1038
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 38
+        _Data: 0.05
+        _isVisible: 1
+        _Description:
+          Identifier: directional_noise
+          Label: Directional Noise
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 38
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.05
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1039
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 39
+        _Data: 0.03
+        _isVisible: 1
+        _Description:
+          Identifier: color_dirtiness
+          Label: Color Dirtiness
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 39
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.03
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1040
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 40
+        _Data: 0.740525
+        _isVisible: 1
+        _Description:
+          Identifier: roughness_1
+          Label: Roughness 1
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 40
+          Type: 0
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.740525
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1041
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 41
+        _Data: 0.959184
+        _isVisible: 1
+        _Description:
+          Identifier: roughness_2
+          Label: Roughness 2
+          GuiGroup: Core Parameters
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 41
+          Type: 0
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.959184
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1042
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 42
+        _Data: 0.2
+        _isVisible: 1
+        _Description:
+          Identifier: pattern_shadow_sketch_intensity
+          Label: Intensity
+          GuiGroup: Pattern Shadow
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 42
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.2
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1043
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 43
+        _Data: 0.04
+        _isVisible: 1
+        _Description:
+          Identifier: sketch_effect_intensity
+          Label: Sketch Effect
+          GuiGroup: Pattern Shadow
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 43
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.04
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1044
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 44
+        _Data: 0.25
+        _isVisible: 1
+        _Description:
+          Identifier: sketch_shadow_angle
+          Label: Shadow Angle
+          GuiGroup: Pattern Shadow
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 44
+          Type: 0
+          WidgetType: 2
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.25
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1045
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 45
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: upper_shadow_removal
+          Label: Upper Shadow Removal
+          GuiGroup: Pattern Shadow
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 45
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1046
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 46
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: lower_shadow_intensity
+          Label: Lower Shadow Intensity
+          GuiGroup: Pattern Shadow
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 46
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1047
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 47
+        _Data: 0.54
+        _isVisible: 1
+        _Description:
+          Identifier: Paper_Grunge_balance
+          Label: Balance
+          GuiGroup: Paper Grunge
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 47
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.54
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1048
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 48
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: Paper_Grunge_contrast
+          Label: Contrast
+          GuiGroup: Paper Grunge
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 48
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1049
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 49
+        _GraphID: 0
+        _Data: {x: 0.166667, y: 0.143848, z: 0.106509, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: paper_grunge_ccolor
+          Label: Color
+          GuiGroup: Paper Grunge
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 49
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.166667, y: 0.143848, z: 0.106509, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1050
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 50
+        _Data: 0.05
+        _isVisible: 1
+        _Description:
+          Identifier: paper_grunge_color_intensity
+          Label: Color Intensity
+          GuiGroup: Paper Grunge
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 50
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.05
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1051
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 51
+        _Data: 0.959184
+        _isVisible: 1
+        _Description:
+          Identifier: paper_grunge_roughness
+          Label: Roughness
+          GuiGroup: Paper Grunge
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 51
+          Type: 0
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.959184
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1052
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 52
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: paper_grunge_roughness_intensity
+          Label: Roughness Intenisty
+          GuiGroup: Paper Grunge
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 52
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1053
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 53
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: ripping_amount
+          Label: Ripping Amount
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 53
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1054
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 54
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: ripped_wallpaper_normal_intensity
+          Label: Ripped Edges Normal Intensity
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 54
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 3
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1055
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: transparent_rips
+          Label: Transparent Holes
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 55
+          Type: 4
+          WidgetType: 4
+        _Index: 55
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1056
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 56
+        _GraphID: 0
+        _Data: {x: 0.563218, y: 0.56023, z: 0.519894, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: exposed_wall_color_1
+          Label: Exposed Wall Color 1
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 56
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.563218, y: 0.56023, z: 0.519894, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1057
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 57
+        _GraphID: 0
+        _Data: {x: 0.477012, y: 0.477012, z: 0.477012, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: exposed_wall_color_2
+          Label: Exposed Wall Color 2
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 57
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.477012, y: 0.477012, z: 0.477012, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1058
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 58
+        _GraphID: 0
+        _Data: {x: 0.362069, y: 0.33769, z: 0.314936, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: exposed_wall_color_3
+          Label: Exposed Wall Color 3
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 58
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.362069, y: 0.33769, z: 0.314936, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1059
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 59
+        _Data: 0.959184
+        _isVisible: 1
+        _Description:
+          Identifier: exposed_wall_roughness_1
+          Label: Exposed Wall Roughness 1
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 59
+          Type: 0
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.959184
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1060
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 60
+        _Data: 0.895044
+        _isVisible: 1
+        _Description:
+          Identifier: exposed_wall_roughness_2
+          Label: Exposed Wall Roughness 2
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 60
+          Type: 0
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.895044
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1061
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 61
+        _Data: 0.1
+        _isVisible: 1
+        _Description:
+          Identifier: exposed_wall_normal_intensity
+          Label: Exposed Wall Normal Intensity
+          GuiGroup: Wallpaper Ripping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 61
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.1
+          _MinValue: 0
+          _MaxValue: 3
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1062
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: enable_paper_seams
+          Label: Enable Paper Seams
+          GuiGroup: Paper Seams
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 62
+          Type: 4
+          WidgetType: 4
+        _Index: 62
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1063
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 63
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: pattern_offset
+          Label: Pattern Offset
+          GuiGroup: Paper Seams
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 63
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1064
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 64
+        _Data: 0.2
+        _isVisible: 1
+        _Description:
+          Identifier: seams_normal_intensity
+          Label: Normal Intensity
+          GuiGroup: Paper Seams
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 64
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.2
+          _MinValue: 0
+          _MaxValue: 3
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1065
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: wrinkles_scale
+          Label: Scale
+          GuiGroup: Wrinkles
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 65
+          Type: 4
+          WidgetType: 1
+        _Index: 65
+        _Data: 2
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 2
+          _MinValue: 1
+          _MaxValue: 16
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1066
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 66
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: wrinkles_rotation
+          Label: Rotation
+          GuiGroup: Wrinkles
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 66
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: -360
+          _MaxValue: 360
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1067
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 67
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: wrinkles_normal_intensity
+          Label: Normal Intensity
+          GuiGroup: Wrinkles
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 67
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 3
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 87972de2bf4ab604c81c1ef21d744e7e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 589488e1d60678c4d806f27b9f10b06e, type: 2}
+  _assetPath: Assets/Materials/Substance Assets/corruagted_metal.sbsar

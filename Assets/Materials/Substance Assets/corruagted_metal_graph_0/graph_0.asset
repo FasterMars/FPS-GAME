@@ -1,0 +1,1208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Materials/Substance Assets/corruagted_metal.sbsar
+  OutputPath: Assets/Materials/Substance Assets/corruagted_metal_graph_0
+  RawData: {fileID: -244192453324840774, guid: 87972de2bf4ab604c81c1ef21d744e7e, type: 3}
+  Graph:
+    Index: 0
+    Owner: {fileID: 11400000}
+    Input:
+    - rid: 1000
+    - rid: 1001
+    - rid: 1002
+    - rid: 1003
+    - rid: 1004
+    - rid: 1005
+    - rid: 1006
+    - rid: 1007
+    - rid: 1008
+    - rid: 1009
+    - rid: 1010
+    - rid: 1011
+    - rid: 1012
+    - rid: 1013
+    - rid: 1014
+    - rid: 1015
+    - rid: 1016
+    - rid: 1017
+    - rid: 1018
+    - rid: 1019
+    - rid: 1020
+    - rid: 1021
+    - rid: 1022
+    - rid: 1023
+    - rid: 1024
+    - rid: 1025
+    - rid: 1026
+    - rid: 1027
+    - rid: 1028
+    - rid: 1029
+    - rid: 1030
+    - rid: 1031
+    - rid: 1032
+    - rid: 1033
+    - rid: 1034
+    - rid: 1035
+    - rid: 1036
+    - rid: 1037
+    - rid: 1038
+    - rid: 1039
+    Output:
+    - Index: 0
+      VirtualOutputIndex: 5
+      GraphIndex: 0
+      Description:
+        Identifier: Diffuse
+        Label: Diffuse
+        Index: 0
+        Type: 8
+        Channel: baseColor
+      OutputTexture: {fileID: 2800000, guid: 667eca03d1572db4eaef66bbe2cdcdfd, type: 3}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: Roughness
+      InvertAssignedAlpha: 1
+      BGRATexture: 0
+      Flags: 0
+    - Index: 1
+      VirtualOutputIndex: 6
+      GraphIndex: 0
+      Description:
+        Identifier: Height
+        Label: Height
+        Index: 1
+        Type: 8
+        Channel: height
+      OutputTexture: {fileID: 2800000, guid: cd35baa890433b64b946e9fe99e41452, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 2
+      VirtualOutputIndex: 7
+      GraphIndex: 0
+      Description:
+        Identifier: Roughness
+        Label: Roughness
+        Index: 2
+        Type: 8
+        Channel: roughness
+      OutputTexture: {fileID: 2800000, guid: b7142ad32e4e97040973a78c831c14a8, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 3
+      VirtualOutputIndex: 8
+      GraphIndex: 0
+      Description:
+        Identifier: Ambient_Occulsion
+        Label: Ambient_Occulsion
+        Index: 3
+        Type: 8
+        Channel: ambientOcclusion
+      OutputTexture: {fileID: 2800000, guid: 346d1a63a3326e742a9288194f575b2e, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 4
+      VirtualOutputIndex: 9
+      GraphIndex: 0
+      Description:
+        Identifier: output
+        Label: output
+        Index: 4
+        Type: 8
+        Channel: normal
+      OutputTexture: {fileID: 2800000, guid: 98a5af540db85004c8c15cacb082d896, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 0
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    RenderTextures: 0
+    OutputRemaped: 0
+    Thumbnail: 
+    HasThumbnail: 0
+    OutputMaterial: {fileID: 2100000, guid: 583fc019468bc0347ba38669c1b4fa2c, type: 2}
+    MaterialShader: Standard
+    GenerateAllOutputs: 1
+    GenerateAllMipmaps: 1
+    DefaultPreset: " <sbspreset pkgurl=\"pkg://corruagted_metal\" label=\"\" >\n 
+      <presetinput identifier=\"$outputsize\" uid=\"4188881268\" type=\"8\" value=\"10,10\"
+      />\n </sbspreset>\n"
+    CurrentStatePreset: " <sbspreset pkgurl=\"pkg://corruagted_metal\" label=\"\"
+      >\n  <presetinput identifier=\"$outputsize\" uid=\"4188881268\" type=\"8\"
+      value=\"10,10\" />\n  <presetinput identifier=\"x_amount\" uid=\"2543767750\"
+      type=\"4\" value=\"12\" />\n  <presetinput identifier=\"Amount\" uid=\"2543768223\"
+      type=\"0\" value=\"0.66\" />\n  <presetinput identifier=\"scale\" uid=\"2543768570\"
+      type=\"4\" value=\"83\" />\n  <presetinput identifier=\"amount\" uid=\"2543768416\"
+      type=\"0\" value=\"0.53\" />\n </sbspreset>\n"
+    IsRuntimeOnly: 0
+  RefreshMaterial: 1
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 888fdb4d-94d9-4c7d-9e8b-bbe9ea451cc6
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 0
+          Type: 5
+          WidgetType: 0
+        _Index: 0
+        _GraphID: 0
+        _Data: {x: 10, y: 10}
+        _isVisible: 1
+        _NumericalDescription:
+          _DefaultValue: {x: 8, y: 8}
+          _MinValue: {x: 0, y: 0}
+          _MaxValue: {x: 1, y: 1}
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1001
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 1
+          Type: 4
+          WidgetType: 0
+        _Index: 1
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1002
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 2
+        _Data: 0.76
+        _isVisible: 1
+        _Description:
+          Identifier: Level
+          Label: level
+          GuiGroup: Roughness
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 2
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.76
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1003
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: x_amount
+          Label: X Amount
+          GuiGroup: Tiling
+          GuiDescription: Amount of patterns on the X axis.
+          GuiVisibleIf: 
+          Index: 3
+          Type: 4
+          WidgetType: 1
+        _Index: 3
+        _Data: 12
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 10
+          _MinValue: 1
+          _MaxValue: 64
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1004
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 4
+        _Data: 0.66
+        _isVisible: 1
+        _Description:
+          Identifier: Amount
+          Label: Amount
+          GuiGroup: Big Chipping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 4
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.52
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1005
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 5
+        _GraphID: 0
+        _Data: {x: 0, y: 0, z: 0.37, w: 0.5}
+        _isVisible: 1
+        _Description:
+          Identifier: Size
+          Label: Size X/Y
+          GuiGroup: Big Chipping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 5
+          Type: 3
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0, y: 0, z: 0.37, w: 0.5}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 1, y: 1, z: 1, w: 1}
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1006
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 6
+        _GraphID: 0
+        _Data: {x: 0.04, y: 0.14}
+        _isVisible: 1
+        _Description:
+          Identifier: Position_Offset
+          Label: Position
+          GuiGroup: Big Chipping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 6
+          Type: 1
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.04, y: 0.14}
+          _MinValue: {x: 0, y: 0}
+          _MaxValue: {x: 1, y: 1}
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1007
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: scale
+          Label: Scale
+          GuiGroup: Small Chipping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 7
+          Type: 4
+          WidgetType: 1
+        _Index: 7
+        _Data: 83
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 59
+          _MinValue: 1
+          _MaxValue: 256
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1008
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 8
+        _Data: 0.53
+        _isVisible: 1
+        _Description:
+          Identifier: amount
+          Label: Amount
+          GuiGroup: Small Chipping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 8
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.04
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1009
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 9
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: position
+          Label: Position
+          GuiGroup: Small Chipping
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 9
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1010
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 10
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: base_hue
+          Label: Base Hue
+          GuiGroup: Colour
+          GuiDescription: The <b>Hue</b> parameter determines the color of the input
+            image
+          GuiVisibleIf: 
+          Index: 10
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1011
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 11
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: saturation
+          Label: Base Saturation
+          GuiGroup: Colour
+          GuiDescription: The <b>Saturation</b> parameter determines the saturation
+            of the input image's color
+          GuiVisibleIf: 
+          Index: 11
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1012
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 12
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: luminosity
+          Label: Base Luminosity
+          GuiGroup: Colour
+          GuiDescription: The <b>Lightness</b> parameter determines the lightness
+            of the input image
+          GuiVisibleIf: 
+          Index: 12
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1013
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 13
+        _GraphID: 0
+        _Data: {x: 0.286617, y: 0.426068, z: 0.597701, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: paint_colour
+          Label: Paint Colour
+          GuiGroup: Colour
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          GuiVisibleIf: 
+          Index: 13
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.286617, y: 0.426068, z: 0.597701, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1014
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 14
+        _GraphID: 0
+        _Data: {x: 0.1546, y: 0.0114}
+        _isVisible: 1
+        _Description:
+          Identifier: blue_paint_position
+          Label: Blue Paint Position
+          GuiGroup: Colour
+          GuiDescription: The <b>Offset</b> parameter defines the 2D displacement
+            of the image
+          GuiVisibleIf: 
+          Index: 14
+          Type: 1
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.1546, y: 0.0114}
+          _MinValue: {x: -0.5, y: -0.5}
+          _MaxValue: {x: 0.5, y: 0.5}
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1015
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 15
+        _GraphID: 0
+        _Data: {x: 0.105098, y: 0.129439, z: 0.133333, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: shadow
+          Label: Shaow
+          GuiGroup: Colour
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          GuiVisibleIf: 
+          Index: 15
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.105098, y: 0.129439, z: 0.133333, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1016
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 16
+        _Data: 0.45
+        _isVisible: 1
+        _Description:
+          Identifier: shadow_value
+          Label: Shadow Value
+          GuiGroup: Colour
+          GuiDescription: The <b>Opacity</b> parameter sets the transparency of the
+            blend
+          GuiVisibleIf: 
+          Index: 16
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.45
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1017
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 17
+        _GraphID: 0
+        _Data: {x: 1, y: 0.956443, z: 0.929825, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: highlight
+          Label: Highlight
+          GuiGroup: Colour
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          GuiVisibleIf: 
+          Index: 17
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 1, y: 0.956443, z: 0.929825, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1018
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 18
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: highlight_value_top
+          Label: Highlight Value top
+          GuiGroup: Colour
+          GuiDescription: The <b>Opacity</b> parameter sets the transparency of the
+            blend
+          GuiVisibleIf: 
+          Index: 18
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1019
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 19
+        _Data: 1
+        _isVisible: 1
+        _Description:
+          Identifier: highlight_value_dwn
+          Label: Highlight Value dwn
+          GuiGroup: Colour
+          GuiDescription: The <b>Opacity</b> parameter sets the transparency of the
+            blend
+          GuiVisibleIf: 
+          Index: 19
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1020
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 20
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: rust_shadow_value
+          Label: Rust Shadow Value
+          GuiGroup: Colour
+          GuiDescription: The <b>Opacity</b> parameter sets the transparency of the
+            blend
+          GuiVisibleIf: 
+          Index: 20
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1021
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: roundness
+          Label: Roundness
+          GuiGroup: Long Rust
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 21
+          Type: 4
+          WidgetType: 1
+        _Index: 21
+        _Data: 46
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 46
+          _MinValue: 1
+          _MaxValue: 64
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1022
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 22
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: pattern
+          Label: Pattern
+          GuiGroup: Long Rust
+          GuiDescription: Set at what coordinate to sample the slice. Can be X or
+            Y coordinate depending on Section Axis.
+          GuiVisibleIf: 
+          Index: 22
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1023
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 23
+        _Data: 1.3
+        _isVisible: 1
+        _Description:
+          Identifier: length
+          Label: Length
+          GuiGroup: Long Rust
+          GuiDescription: Scales entire graph down.  Useful for HDR viewing.
+          GuiVisibleIf: 
+          Index: 23
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 1.3
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1024
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 24
+        _Data: -0.15
+        _isVisible: 1
+        _Description:
+          Identifier: y_position
+          Label: Y Position
+          GuiGroup: Long Rust
+          GuiDescription: Shifts entire graph up or down. Useful for HDR viewing.
+          GuiVisibleIf: 
+          Index: 24
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: -0.15
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1025
+      type: {class: SubstanceInputFloat2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 25
+        _GraphID: 0
+        _Data: {x: 0, y: 0.32}
+        _isVisible: 1
+        _Description:
+          Identifier: dwn_rust_position
+          Label: Dwn Rust Position
+          GuiGroup: Long Rust
+          GuiDescription: The <b>Offset</b> parameter defines the 2D displacement
+            of the image
+          GuiVisibleIf: 
+          Index: 25
+          Type: 1
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0, y: 0.32}
+          _MinValue: {x: -0.5, y: -0.5}
+          _MaxValue: {x: 0.5, y: 0.5}
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1026
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: detail_scale
+          Label: Detail Scale
+          GuiGroup: Long Rust
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 26
+          Type: 4
+          WidgetType: 1
+        _Index: 26
+        _Data: 115
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 115
+          _MinValue: 1
+          _MaxValue: 256
+          _SliderStep: 1
+          _SliderClamp: 1
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1027
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 27
+        _Data: 0.03
+        _isVisible: 1
+        _Description:
+          Identifier: detail_amount_1
+          Label: Detail Amount
+          GuiGroup: Long Rust
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 27
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.03
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1028
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 28
+        _Data: 0.15
+        _isVisible: 1
+        _Description:
+          Identifier: detail_position
+          Label: Detail Position
+          GuiGroup: Long Rust
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 28
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.15
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1029
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 29
+        _Data: 0.67
+        _isVisible: 1
+        _Description:
+          Identifier: pattern_1
+          Label: Pattern
+          GuiGroup: Bottom Rust
+          GuiDescription: Set at what coordinate to sample the slice. Can be X or
+            Y coordinate depending on Section Axis.
+          GuiVisibleIf: 
+          Index: 29
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.67
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1030
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 30
+        _Data: 0.18
+        _isVisible: 1
+        _Description:
+          Identifier: length_1
+          Label: Length
+          GuiGroup: Bottom Rust
+          GuiDescription: Scales entire graph down.  Useful for HDR viewing.
+          GuiVisibleIf: 
+          Index: 30
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.18
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1031
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 31
+        _Data: -0.01
+        _isVisible: 1
+        _Description:
+          Identifier: y_position_1
+          Label: Y position
+          GuiGroup: Bottom Rust
+          GuiDescription: Shifts entire graph up or down. Useful for HDR viewing.
+          GuiVisibleIf: 
+          Index: 31
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: -0.01
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1032
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 32
+        _Data: 0.39
+        _isVisible: 1
+        _Description:
+          Identifier: edging_pattern
+          Label: Edging Pattern
+          GuiGroup: Bottom Rust
+          GuiDescription: Set at what coordinate to sample the slice. Can be X or
+            Y coordinate depending on Section Axis.
+          GuiVisibleIf: 
+          Index: 32
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.39
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1033
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 33
+        _Data: 0.39
+        _isVisible: 1
+        _Description:
+          Identifier: edging_length
+          Label: Edging Length
+          GuiGroup: Bottom Rust
+          GuiDescription: Scales entire graph down.  Useful for HDR viewing.
+          GuiVisibleIf: 
+          Index: 33
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.39
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1034
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 34
+        _Data: 0.94
+        _isVisible: 1
+        _Description:
+          Identifier: edging_y_position_1
+          Label: Edging Y Position
+          GuiGroup: Bottom Rust
+          GuiDescription: Shifts entire graph up or down. Useful for HDR viewing.
+          GuiVisibleIf: 
+          Index: 34
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.94
+          _MinValue: -1
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1035
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: dirt_scale
+          Label: Dirt Scale
+          GuiGroup: Bottom Dirt
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 35
+          Type: 4
+          WidgetType: 1
+        _Index: 35
+        _Data: 17
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 17
+          _MinValue: 1
+          _MaxValue: 256
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1036
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 36
+        _Data: 0.52
+        _isVisible: 1
+        _Description:
+          Identifier: dirt_pattern
+          Label: Dirt Pattern
+          GuiGroup: Bottom Dirt
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 36
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.52
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1037
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 37
+        _GraphID: 0
+        _Data: {x: 0.921569, y: 0.811765, z: 0.698039, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: rust_highlight
+          Label: Rust Highlight
+          GuiGroup: Colour
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          GuiVisibleIf: 
+          Index: 37
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.921569, y: 0.811765, z: 0.698039, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1038
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 38
+        _Data: 0
+        _isVisible: 1
+        _Description:
+          Identifier: rust_highlight_value
+          Label: Rust Highlight Value
+          GuiGroup: Colour
+          GuiDescription: The <b>Opacity</b> parameter sets the transparency of the
+            blend
+          GuiVisibleIf: 
+          Index: 38
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1039
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 39
+        _GraphID: 0
+        _Data: {x: 0.0784314, y: 0.113725, z: 0.109804, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: rust_shadow
+          Label: Rust Shadow
+          GuiGroup: Small Chipping
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          GuiVisibleIf: 
+          Index: 39
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.0784314, y: 0.113725, z: 0.109804, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []

@@ -1,0 +1,721 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: graph_0
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/Materials/Substance Assets/CarpetSubstance001 (1).sbsar
+  OutputPath: Assets/Materials/Substance Assets/CarpetSubstance001 (1)_graph_0
+  RawData: {fileID: -244192453324840774, guid: 5d81ffa7fe81ffe4c8c511106fe1781b, type: 3}
+  Graph:
+    Index: 0
+    Owner: {fileID: 11400000}
+    Input:
+    - rid: 1000
+    - rid: 1001
+    - rid: 1002
+    - rid: 1003
+    - rid: 1004
+    - rid: 1005
+    - rid: 1006
+    - rid: 1007
+    - rid: 1008
+    - rid: 1009
+    - rid: 1010
+    - rid: 1011
+    - rid: 1012
+    - rid: 1013
+    - rid: 1014
+    - rid: 1015
+    - rid: 1016
+    - rid: 1017
+    - rid: 1018
+    - rid: 1019
+    - rid: 1020
+    - rid: 1021
+    Output:
+    - Index: 0
+      VirtualOutputIndex: 5
+      GraphIndex: 0
+      Description:
+        Identifier: basecolor
+        Label: basecolor
+        Index: 0
+        Type: 8
+        Channel: baseColor
+      OutputTexture: {fileID: 2800000, guid: ea24d4a5781286b4180fccb828c08538, type: 3}
+      sRGB: 1
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: roughness
+      InvertAssignedAlpha: 1
+      BGRATexture: 0
+      Flags: 0
+    - Index: 1
+      VirtualOutputIndex: 6
+      GraphIndex: 0
+      Description:
+        Identifier: normal
+        Label: normal
+        Index: 1
+        Type: 8
+        Channel: normal
+      OutputTexture: {fileID: 2800000, guid: 1123e9e6e9f91054499fdbb330660399, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 0
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 2
+      VirtualOutputIndex: 7
+      GraphIndex: 0
+      Description:
+        Identifier: roughness
+        Label: roughness
+        Index: 2
+        Type: 8
+        Channel: roughness
+      OutputTexture: {fileID: 0}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 0
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 3
+      VirtualOutputIndex: 8
+      GraphIndex: 0
+      Description:
+        Identifier: height
+        Label: height
+        Index: 3
+        Type: 8
+        Channel: height
+      OutputTexture: {fileID: 2800000, guid: 01bb7d68c57eaf94bb816f65d4030282, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    - Index: 4
+      VirtualOutputIndex: 9
+      GraphIndex: 0
+      Description:
+        Identifier: ambientOcclusion
+        Label: ambientOcclusion
+        Index: 4
+        Type: 8
+        Channel: ambientOcclusion
+      OutputTexture: {fileID: 2800000, guid: 361c138cf2a20634fb61bf3906d6dc9c, type: 3}
+      sRGB: 0
+      IsVirtual: 0
+      IsStandardOutput: 1
+      IsAlphaAssignable: 1
+      AlphaChannel: 
+      InvertAssignedAlpha: 0
+      BGRATexture: 0
+      Flags: 0
+    RenderTextures: 0
+    OutputRemaped: 0
+    Thumbnail: 
+    HasThumbnail: 0
+    OutputMaterial: {fileID: 2100000, guid: 815a19d57a7dd6842b42db938eb8c437, type: 2}
+    MaterialShader: Standard
+    GenerateAllOutputs: 0
+    GenerateAllMipmaps: 0
+    DefaultPreset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
+    CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput
+      identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n
+      </sbspreset>\n"
+    IsRuntimeOnly: 0
+  RefreshMaterial: 1
+  Name: graph_0
+  IsRoot: 1
+  FlagedForDelete: 0
+  GUID: 02316fd3-1c0a-49c7-8c5e-cd9065a3b779
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 0
+          Type: 5
+          WidgetType: 0
+        _Index: 0
+        _GraphID: 0
+        _Data: {x: 10, y: 10}
+        _isVisible: 1
+        _NumericalDescription:
+          _DefaultValue: {x: 8, y: 8}
+          _MinValue: {x: 0, y: 0}
+          _MaxValue: {x: 1, y: 1}
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1001
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 1
+          Type: 4
+          WidgetType: 0
+        _Index: 1
+        _Data: 0
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 0
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1002
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: Tufts
+          Label: Tufts Amount
+          GuiGroup: General
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 2
+          Type: 4
+          WidgetType: 1
+        _Index: 2
+        _Data: 512
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 512
+          _MinValue: 1
+          _MaxValue: 2048
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1003
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 3
+        _Data: 0.5
+        _isVisible: 1
+        _Description:
+          Identifier: fiber_contrast
+          Label: Contrast
+          GuiGroup: General
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 3
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.5
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1004
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 4
+        _Data: 2
+        _isVisible: 1
+        _Description:
+          Identifier: normal_intensity
+          Label: Normal Intensity
+          GuiGroup: General
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 4
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 2
+          _MinValue: 0
+          _MaxValue: 3
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1005
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 5
+        _Data: 0.3
+        _isVisible: 1
+        _Description:
+          Identifier: rotation_random
+          Label: Rotation Map Multiplier
+          GuiGroup: General
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 5
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.3
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1006
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 6
+        _Data: 0.125
+        _isVisible: 1
+        _Description:
+          Identifier: mask_random_1
+          Label: Missing Tufts
+          GuiGroup: Primary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 6
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.125
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1007
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 7
+        _GraphID: 0
+        _Data: {x: 0.19737, y: 0.689398, z: 0.729412, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: primary_colorA
+          Label: Color A
+          GuiGroup: Primary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 7
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.19737, y: 0.689398, z: 0.729412, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1008
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 8
+        _GraphID: 0
+        _Data: {x: 0.0984544, y: 0.269659, z: 0.380392, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: primary_colorB
+          Label: Color B
+          GuiGroup: Primary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 8
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.0984544, y: 0.269659, z: 0.380392, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1009
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: secondary_pattern
+          Label: Enable Secondary Color
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 9
+          Type: 4
+          WidgetType: 4
+        _Index: 9
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1010
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 10
+        _Data: 0.125
+        _isVisible: 1
+        _Description:
+          Identifier: mask_random_2
+          Label: Missing Tufts
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 10
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.125
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 1
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1011
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 11
+        _GraphID: 0
+        _Data: {x: 0.0744021, y: 0.241016, z: 0.321569, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: secondary_colorA
+          Label: Color A
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 11
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.0744021, y: 0.241016, z: 0.321569, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1012
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 12
+        _GraphID: 0
+        _Data: {x: 0.0732026, y: 0.195476, z: 0.27451, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: secondary_colorB
+          Label: Color B
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 12
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.0732026, y: 0.195476, z: 0.27451, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1013
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: secondary_design
+          Label: Design Type
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 13
+          Type: 4
+          WidgetType: 1
+        _Index: 13
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 1
+          _MaxValue: 10
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1014
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: design_tiling
+          Label: Design Scale
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 14
+          Type: 4
+          WidgetType: 1
+        _Index: 14
+        _Data: 8
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 8
+          _MinValue: 0
+          _MaxValue: 128
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1015
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 15
+        _Data: 0.6
+        _isVisible: 1
+        _Description:
+          Identifier: secondary_design_specific
+          Label: Design Specific Parameter
+          GuiGroup: Secondary Color
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 15
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.6
+          _MinValue: 0
+          _MaxValue: 2
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1016
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: plush
+          Label: Enable Plush
+          GuiGroup: Plush
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 16
+          Type: 4
+          WidgetType: 4
+        _Index: 16
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 0
+          _MaxValue: 0
+          _SliderStep: 0
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1017
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 17
+        _GraphID: 0
+        _Data: {x: 0.833333, y: 0.833333, z: 0.833333, w: 1}
+        _isVisible: 1
+        _Description:
+          Identifier: plush_color
+          Label: Color
+          GuiGroup: Plush
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 17
+          Type: 3
+          WidgetType: 3
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: {x: 0.833333, y: 0.833333, z: 0.833333, w: 1}
+          _MinValue: {x: 0, y: 0, z: 0, w: 0}
+          _MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          _SliderStep: 0
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+    - rid: 1018
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 18
+        _Data: 0.15
+        _isVisible: 1
+        _Description:
+          Identifier: plush_contrast
+          Label: Contrast
+          GuiGroup: Plush
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 18
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.15
+          _MinValue: 0
+          _MaxValue: 1
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0
+    - rid: 1019
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: plush_design
+          Label: Design Type
+          GuiGroup: Plush
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 19
+          Type: 4
+          WidgetType: 1
+        _Index: 19
+        _Data: 1
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 1
+          _MinValue: 1
+          _MaxValue: 10
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1020
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Description:
+          Identifier: design_plush_tiling
+          Label: Design Scale
+          GuiGroup: Plush
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 20
+          Type: 4
+          WidgetType: 1
+        _Index: 20
+        _Data: 8
+        _isVisible: 1
+        _GraphID: 0
+        _NumericalDescription:
+          _DefaultValue: 8
+          _MinValue: 0
+          _MaxValue: 128
+          _SliderStep: 1
+          _SliderClamp: 0
+          _LabelFalse: 
+          _LabelTrue: 
+          _EnumValueCount: 0
+          _EnumValues: []
+        _HasChanged: 0
+    - rid: 1021
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        _Index: 21
+        _Data: 0.125
+        _isVisible: 1
+        _Description:
+          Identifier: plush_design_specific
+          Label: Design Specific Parameter
+          GuiGroup: Plush
+          GuiDescription: 
+          GuiVisibleIf: 
+          Index: 21
+          Type: 0
+          WidgetType: 1
+        _HasChanged: 0
+        _NumericalDescription:
+          _DefaultValue: 0.125
+          _MinValue: 0
+          _MaxValue: 2
+          _SliderStep: 0.01
+          _SliderClamp: 0
+          _EnumValueCount: 0
+          _EnumValues: []
+        _GraphID: 0

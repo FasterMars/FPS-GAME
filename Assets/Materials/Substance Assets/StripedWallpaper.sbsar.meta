@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 37c865102cedb82459407b9ac7cf1abd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: bf42be76c049a6a40bf505170346d5bf, type: 2}
+  _assetPath: Assets/Materials/Substance Assets/StripedWallpaper.sbsar

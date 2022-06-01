@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6ecb85436c3674446bc9da8ef019adf9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: 87ea2d9e08d99024cb5c4454d7cfe2cf, type: 2}
+  _assetPath: Assets/Materials/Substance Assets/BricksSubstance006_LQ.sbsar
