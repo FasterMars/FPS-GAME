@@ -175,6 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4087964630264953324}
+  - component: {fileID: 6087698374248632710}
   m_Layer: 0
   m_Name: drawer1
   m_TagString: Untagged
@@ -206,6 +207,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6087698374248632710
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3742647972966294358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.108341, y: 2.4597712, z: 2.8555639}
+  m_Center: {x: -1.4768775, y: 0.095827825, z: 0.05731029}
 --- !u!1 &3800339746944904291
 GameObject:
   m_ObjectHideFlags: 0
