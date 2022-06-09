@@ -135,7 +135,7 @@ MonoBehaviour:
     Thumbnail: 
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: ee100388ca5d64a47ac6209c69c08f73, type: 2}
-    MaterialShader: Standard
+    MaterialShader: Universal Render Pipeline/Lit
     GenerateAllOutputs: 0
     GenerateAllMipmaps: 0
     DefaultPreset: " <sbspreset pkgurl=\"pkg://CARTOON_WALL_TEXTURE\" label=\"\"

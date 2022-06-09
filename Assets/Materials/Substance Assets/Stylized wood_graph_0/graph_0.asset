@@ -141,13 +141,14 @@ MonoBehaviour:
     Thumbnail: 
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: f53e7d1fec445d14c918e64c461f5fbd, type: 2}
-    MaterialShader: Standard
+    MaterialShader: Universal Render Pipeline/Lit
     GenerateAllOutputs: 0
     GenerateAllMipmaps: 0
     DefaultPreset: " <sbspreset pkgurl=\"pkg://wood\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"2410533327\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
     CurrentStatePreset: " <sbspreset pkgurl=\"pkg://wood\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"2410533327\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
+      identifier=\"$outputsize\" uid=\"2410533327\" type=\"8\" value=\"10,10\" />\n
+      </sbspreset>\n"
     IsRuntimeOnly: 0
   RefreshMaterial: 1
   Name: graph_0

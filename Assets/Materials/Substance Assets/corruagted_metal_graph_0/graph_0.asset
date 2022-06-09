@@ -155,7 +155,7 @@ MonoBehaviour:
     Thumbnail: 
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: 583fc019468bc0347ba38669c1b4fa2c, type: 2}
-    MaterialShader: Standard
+    MaterialShader: Universal Render Pipeline/Lit
     GenerateAllOutputs: 1
     GenerateAllMipmaps: 1
     DefaultPreset: " <sbspreset pkgurl=\"pkg://corruagted_metal\" label=\"\" >\n 
