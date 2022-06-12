@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2aaad326eace0194c9d48e43a149a98f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: dda12f74ff9116a42b23482252b2c482, type: 3}
+  _instancesCopy:
+  - {fileID: 11400000, guid: e335d76d64188714fafc85bd24c0a421, type: 2}
+  _assetPath: Assets/Materials/Substance Assets/WoodFloorSubstance006_LQ.sbsar

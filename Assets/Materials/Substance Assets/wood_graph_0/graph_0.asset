@@ -69,7 +69,7 @@ MonoBehaviour:
         Index: 2
         Type: 8
         Channel: roughness
-      OutputTexture: {fileID: 0}
+      OutputTexture: {fileID: 2800000, guid: 6190cef7b9e568142adf2ab60b966a77, type: 3}
       sRGB: 0
       IsVirtual: 0
       IsStandardOutput: 0
@@ -120,7 +120,7 @@ MonoBehaviour:
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: f6eacfff08489834b822d8510d85dd39, type: 2}
     MaterialShader: Universal Render Pipeline/Lit
-    GenerateAllOutputs: 0
+    GenerateAllOutputs: 1
     GenerateAllMipmaps: 0
     DefaultPreset: " <sbspreset pkgurl=\"pkg://wood\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"2410533327\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"

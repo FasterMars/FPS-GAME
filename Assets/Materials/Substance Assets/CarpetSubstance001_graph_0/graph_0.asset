@@ -137,7 +137,7 @@ MonoBehaviour:
     Thumbnail: 
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: a6875bbf8c7f7474c90adfe803b1a711, type: 2}
-    MaterialShader: Standard
+    MaterialShader: Universal Render Pipeline/Lit
     GenerateAllOutputs: 0
     GenerateAllMipmaps: 0
     DefaultPreset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput
@@ -153,8 +153,8 @@ MonoBehaviour:
       uid=\"445972602\" type=\"3\" value=\"0.878431,0.564706,0.00392157,1\" />\n 
       <presetinput identifier=\"mask_random_2\" uid=\"446150563\" type=\"0\" value=\"0.9\"
       />\n  <presetinput identifier=\"secondary_colorA\" uid=\"445972679\" type=\"3\"
-      value=\"0,0.282353,0.580392,1\" />\n  <presetinput identifier=\"secondary_colorB\"
-      uid=\"445972525\" type=\"3\" value=\"0,0.423529,0.878431,1\" />\n </sbspreset>\n"
+      value=\"0,0.463539,0.95283,1\" />\n  <presetinput identifier=\"secondary_colorB\"
+      uid=\"445972525\" type=\"3\" value=\"0.429245,0.704431,1,1\" />\n </sbspreset>\n"
     IsRuntimeOnly: 0
   RefreshMaterial: 1
   Name: graph_0
@@ -449,7 +449,7 @@ MonoBehaviour:
       data:
         _Index: 11
         _GraphID: 0
-        _Data: {x: 0, y: 0.28235295, z: 0.5803922, w: 1}
+        _Data: {x: 0, y: 0.46353897, z: 0.9528302, w: 1}
         _isVisible: 1
         _Description:
           Identifier: secondary_colorA
@@ -474,7 +474,7 @@ MonoBehaviour:
       data:
         _Index: 12
         _GraphID: 0
-        _Data: {x: 0, y: 0.42352942, z: 0.8784314, w: 1}
+        _Data: {x: 0.4292453, y: 0.70443064, z: 1, w: 1}
         _isVisible: 1
         _Description:
           Identifier: secondary_colorB

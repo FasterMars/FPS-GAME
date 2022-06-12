@@ -67,7 +67,7 @@ MonoBehaviour:
         Index: 2
         Type: 8
         Channel: roughness
-      OutputTexture: {fileID: 0}
+      OutputTexture: {fileID: 2800000, guid: c672188f4ef37244588c629de1e09c15, type: 3}
       sRGB: 0
       IsVirtual: 0
       IsStandardOutput: 0
@@ -136,8 +136,8 @@ MonoBehaviour:
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: ee100388ca5d64a47ac6209c69c08f73, type: 2}
     MaterialShader: Universal Render Pipeline/Lit
-    GenerateAllOutputs: 0
-    GenerateAllMipmaps: 0
+    GenerateAllOutputs: 1
+    GenerateAllMipmaps: 1
     DefaultPreset: " <sbspreset pkgurl=\"pkg://CARTOON_WALL_TEXTURE\" label=\"\"
       >\n  <presetinput identifier=\"$outputsize\" uid=\"2480712167\" type=\"8\"
       value=\"10,10\" />\n </sbspreset>\n"
