@@ -111,13 +111,13 @@ MonoBehaviour:
     OutputMaterial: {fileID: 2100000, guid: dd186d2e8bd397145be35437ecd96c53, type: 2}
     MaterialShader: Universal Render Pipeline/Lit
     GenerateAllOutputs: 1
-    GenerateAllMipmaps: 0
+    GenerateAllMipmaps: 1
     DefaultPreset: " <sbspreset pkgurl=\"pkg://Material\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"2109889828\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
     CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Material\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"2109889828\" type=\"8\" value=\"10,10\" />\n 
-      <presetinput identifier=\"color_a\" uid=\"321115030\" type=\"2\" value=\"0.283019,0.163245,0\"
-      />\n  <presetinput identifier=\"color_b\" uid=\"321114948\" type=\"2\" value=\"0.292453,0.189553,0\"
+      <presetinput identifier=\"color_a\" uid=\"321115030\" type=\"2\" value=\"0.528302,0.240212,0\"
+      />\n  <presetinput identifier=\"color_b\" uid=\"321114948\" type=\"2\" value=\"0.40566,0.259623,0\"
       />\n  <presetinput identifier=\"scale\" uid=\"320958391\" type=\"4\" value=\"1\"
       />\n  <presetinput identifier=\"position_offset\" uid=\"320957389\" type=\"0\"
       value=\"0.307\" />\n  <presetinput identifier=\"normal_intensity\" uid=\"321114750\"
@@ -196,7 +196,7 @@ MonoBehaviour:
           Type: 2
           WidgetType: 3
         _Index: 2
-        _Data: {x: 0.2830189, y: 0.16324505, z: 0}
+        _Data: {x: 0.5283019, y: 0.24021204, z: 0}
         _isVisible: 1
         _NumericalDescription:
           _DefaultValue: {x: 0.76, y: 0.598454, z: 0.286377}
@@ -221,7 +221,7 @@ MonoBehaviour:
           Type: 2
           WidgetType: 3
         _Index: 3
-        _Data: {x: 0.2924528, y: 0.18955274, z: 0}
+        _Data: {x: 0.4056604, y: 0.25962263, z: 0}
         _isVisible: 1
         _NumericalDescription:
           _DefaultValue: {x: 0.58, y: 0.42993, z: 0.158182}

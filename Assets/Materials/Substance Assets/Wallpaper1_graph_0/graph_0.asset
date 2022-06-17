@@ -160,7 +160,7 @@ MonoBehaviour:
     Thumbnail: 
     HasThumbnail: 0
     OutputMaterial: {fileID: 2100000, guid: f019cfabd708e0547b01aa03a041db59, type: 2}
-    MaterialShader: Standard
+    MaterialShader: Universal Render Pipeline/Lit
     GenerateAllOutputs: 0
     GenerateAllMipmaps: 0
     DefaultPreset: " <sbspreset pkgurl=\"pkg://Wallpaper\" label=\"\" >\n  <presetinput
