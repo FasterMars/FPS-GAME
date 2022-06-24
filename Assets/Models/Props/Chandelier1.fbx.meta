@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b6f1217c26dc5b341a9694eff03b138e
+guid: 5ce1d193ddc26b74196e7d7d8e423924
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -8,17 +8,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Metal1
-    second: {fileID: 2100000, guid: 2475917bdbd54ee47a2c3fa612ddca15, type: 2}
+    second: {fileID: 2100000, guid: 4d71c5a6793debc45a6e03218ba62e02, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: WoodBlue
-    second: {fileID: 2100000, guid: 1b9f98845ee94ce41adb4294f4ffdd0d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: WoodDark
-    second: {fileID: 2100000, guid: fe416fc56f7ea2b49ad4f6422e409f50, type: 2}
+      name: RedMetal
+    second: {fileID: 2100000, guid: 6f5590dfbd550744b8fdb14646842094, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -57,8 +52,8 @@ ModelImporter:
     sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0

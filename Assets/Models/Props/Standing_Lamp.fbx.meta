@@ -7,8 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: LampConeHolderMat
+    second: {fileID: 2100000, guid: 2d1d35548a86b8b4c9e06cde7fd7faf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: LampShadeMat
     second: {fileID: 2100000, guid: a03d932b075ddff40a1395499e82a5cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StickMat
+    second: {fileID: 2100000, guid: fe416fc56f7ea2b49ad4f6422e409f50, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
