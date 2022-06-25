@@ -143,8 +143,10 @@ MonoBehaviour:
     DefaultPreset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
     CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n
-      </sbspreset>\n"
+      identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n 
+      <presetinput identifier=\"primary_colorA\" uid=\"445972550\" type=\"3\" value=\"0.250445,0.751546,0.792453,1\"
+      />\n  <presetinput identifier=\"primary_colorB\" uid=\"445972602\" type=\"3\"
+      value=\"0.143868,0.411462,0.575472,1\" />\n </sbspreset>\n"
     IsRuntimeOnly: 0
   RefreshMaterial: 1
   Name: graph_0
@@ -337,7 +339,7 @@ MonoBehaviour:
       data:
         _Index: 7
         _GraphID: 0
-        _Data: {x: 0.19737, y: 0.689398, z: 0.729412, w: 1}
+        _Data: {x: 0.25044498, y: 0.75154644, z: 0.7924528, w: 1}
         _isVisible: 1
         _Description:
           Identifier: primary_colorA
@@ -362,7 +364,7 @@ MonoBehaviour:
       data:
         _Index: 8
         _GraphID: 0
-        _Data: {x: 0.0984544, y: 0.269659, z: 0.380392, w: 1}
+        _Data: {x: 0.14386792, y: 0.41146222, z: 0.5754717, w: 1}
         _isVisible: 1
         _Description:
           Identifier: primary_colorB
