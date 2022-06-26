@@ -144,9 +144,10 @@ MonoBehaviour:
       identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n</sbspreset>\n"
     CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Carpet\" label=\"\" >\n  <presetinput
       identifier=\"$outputsize\" uid=\"1887539027\" type=\"8\" value=\"10,10\" />\n 
-      <presetinput identifier=\"primary_colorA\" uid=\"445972550\" type=\"3\" value=\"0.250445,0.751546,0.792453,1\"
-      />\n  <presetinput identifier=\"primary_colorB\" uid=\"445972602\" type=\"3\"
-      value=\"0.143868,0.411462,0.575472,1\" />\n </sbspreset>\n"
+      <presetinput identifier=\"$randomseed\" uid=\"670275841\" type=\"4\" value=\"6827\"
+      />\n  <presetinput identifier=\"primary_colorA\" uid=\"445972550\" type=\"3\"
+      value=\"0.250445,0.751546,0.792453,1\" />\n  <presetinput identifier=\"primary_colorB\"
+      uid=\"445972602\" type=\"3\" value=\"0.143868,0.411462,0.575472,1\" />\n </sbspreset>\n"
     IsRuntimeOnly: 0
   RefreshMaterial: 1
   Name: graph_0
@@ -193,7 +194,7 @@ MonoBehaviour:
           Type: 4
           WidgetType: 0
         _Index: 1
-        _Data: 0
+        _Data: 6827
         _isVisible: 1
         _GraphID: 0
         _NumericalDescription:
